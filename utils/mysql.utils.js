@@ -40,6 +40,7 @@ class MysqlUtils {
         }
         return this.sequelize;
     }
+
 }
 
 module.exports = new MysqlUtils();

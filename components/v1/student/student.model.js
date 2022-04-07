@@ -1,8 +1,6 @@
 const Mysql = require('../../../utils/mysql.utils');
 const Sequelize = require('sequelize');
 
-
-
 class Model {
     
     Students;

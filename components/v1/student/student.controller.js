@@ -3,6 +3,7 @@ const StudentService = require('./student.service');
 class Controller {
 
     async getAll(req, res) {
+        // add req validations
         return await StudentService.getAll();
     }
 

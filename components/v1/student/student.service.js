@@ -4,6 +4,7 @@ const Model = require('./student.model');
 class Service {
  
     async getAll() {
+        // business validations
         const data =  await Model.Students.findAll();
         console.log(JSON.stringify(data, null, 2));
         return data;

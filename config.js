@@ -5,6 +5,7 @@ class Config {
 
     APP_NAME = "Demo app";
     APP_ADDRESS = "India";
+
     MODE = process.env.MODE;
     
     SERVER = {
@@ -17,6 +18,8 @@ class Config {
         USERNAME: process.env.MYSQL_USERNAME, 
         PASSWORD: process.env.MYSQL_PASSWORD,
     }
+
+    LOG_FOLDER = process.env.LOG_FOLDER;
 }
 
 module.exports = new Config();

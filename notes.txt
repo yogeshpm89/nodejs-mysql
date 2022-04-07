@@ -1,0 +1,23 @@
+
+1. To create blank npm project
+    npm init 
+        name
+        description
+        version
+
+2. npm install
+
+3. Install following libraries
+    npm i bcrypt --save
+    npm i express --save
+    npm i body-parser --save
+    npm i dotenv --save
+    npm i cors --save
+    npm i joi --save
+    npm i winston --save
+    npm i lodash --save
+    npm i --save sequelize
+    npm i --save mysql
+    npm i mysql2 --save
+
+4. app.js
