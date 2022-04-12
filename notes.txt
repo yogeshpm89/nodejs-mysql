@@ -21,3 +21,56 @@
     npm i mysql2 --save
 
 4. app.js
+
+
+HTTP Verbs
+    GET you get all the records
+    GET /:id you get one record
+    POST   you create a record
+    PUT /:id you update a record
+    PATCH /:id you update a record
+    DELETE /:id you delete a record -> soft delete and hard delete
+
+POST: 
+    add route for post
+    add method in controller
+    add method in service
+
+    POSTMAN add post request
+
+GET:
+    add route for get
+    add method in controller
+    add method in service
+
+    POSTMAN add get request
+
+PUT:
+    add route for put
+    add method in controller
+    add method in service
+
+    POSTMAN add put request
+
+
+    try {
+
+        // code
+
+    } catch (error) {
+
+        // code
+        throw eror
+
+    }
+
+
+url : req.params<name>
+query: req.query<name>
+body: req.body
+
+*/
+
+add pagination in get all
+add sorting in get all
+add search in get all
