@@ -1,3 +1,29 @@
+Middleware
+Mysql joins
+    Student (id, name, age, address, class_id)
+    Class (id, standard, division)
+
+
+Authentication
+    username / password
+        /login (username / password) 
+
+    oauth (athuentication framework)
+        /login (username / password) => access_token (30 minutes)
+        /students (access_token)
+
+        401 : invalid access_token
+        403 : forbidden
+
+
+
+
+
+Middleware
+
+
+
+
 
 1. To create blank npm project
     npm init 

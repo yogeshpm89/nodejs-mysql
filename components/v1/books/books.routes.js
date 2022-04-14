@@ -1,9 +1,10 @@
 const express = require('express');
+const requestLogger = require('../../../middlewares/request.log');
 const router = express.Router();
 
 const BooksController = require('./books.controller');
 
-router.get('/', async (req, res) => {
+router.get('/', requestLogger, async (req, res) => {
     const data = await BooksController.getBooks(req);
     res.status(200).json({
         data: data
